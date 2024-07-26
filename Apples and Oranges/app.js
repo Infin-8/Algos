@@ -12,7 +12,7 @@ const createPayload = ({ s, t, a, b, apples, oranges }) => ({
   oranges,
 });
 
-const mapPositions = ({ start, end, appleTree, orangeTree, apples, oranges,}) => ({
+const mapPositions = ({ start, end, appleTree, orangeTree, apples, oranges }) => ({
   start,
   end,
   apples: [...apples].map((apple) => apple + appleTree),
